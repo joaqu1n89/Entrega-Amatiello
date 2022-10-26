@@ -31,12 +31,25 @@ h2{
     padding: 20px;
 }
 
-
-body{
-    background: -webkit-linear-gradient(left, #8a926f, #7ca7b3);
-    background-size: cover;
-    
+h3{
+    background-color: gray;
+    color: burlywood;
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+    font-family: 'PT Serif', serif;
+    text-transform: uppercase;
 }
+
+
+.nrigth{
+    height:450px;
+    background-image: url(/img/pexels-wallace-chuck-2973392.jpg);
+    background-size: cover;
+}
+
+
+
 
 
 .contact-form{
@@ -90,3 +103,5 @@ body{
     border: none;
     cursor: pointer;
 }
+
+
