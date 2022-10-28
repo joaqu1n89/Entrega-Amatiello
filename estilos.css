@@ -174,8 +174,8 @@ h5{
 }
 
 .gal1{
-    height: 300px;
-    width:auto ;
+    background-image: url(img/pexels-wallace-chuck-2973392.jpg);
+    background-size: cover;
     background-position: center;
   
 }
