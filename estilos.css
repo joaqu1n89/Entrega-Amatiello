@@ -174,7 +174,7 @@ h5{
 }
 
 .gal1{
-    background-image: url(./img/pexels-wallace-chuck-2973392.jpg);
+    background-image: url(./img/pexels-wallace-chuck-2973392.jpggit);
     background-position: center;
     background-size: cover;
 }
@@ -193,6 +193,7 @@ h5{
 
 .gal4{
     background-image: url(./img/pexels-los-muertos-crew-8030143.jpg);
+    height: 400px;
     background-position: center;
     background-size: cover;
 }
