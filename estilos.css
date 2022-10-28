@@ -73,7 +73,7 @@ h3{
 
 .nright{
     height: 600px;
-    background-image: url(/img/pexels-wallace-chuck-2973392.jpg);
+    background-image: url(img/pexels-wallace-chuck-2973392.jpg);
     background-size: cover;
     background-position: center;
     margin-top: 30px;
@@ -174,38 +174,39 @@ h5{
 }
 
 .gal1{
-    background-image: url(./img/pexels-wallace-chuck-2973392.jpggit);
+    height: 300px;
+    width:auto ;
     background-position: center;
-    background-size: cover;
+  
 }
 
 .gal2{
-    background-image: url(/img/pexels-cottonbro-3738075.jpg);
+    background-image: url(img/pexels-cottonbro-3738075.jpg);
     background-position: center;
     background-size: cover;
 }
 
 .gal3{
-    background-image: url(/img/pexels-dilara-baltacı-10443442.jpg);
+    background-image: url(img/pexels-dilara-baltacı-10443442.jpg);
     background-position: center;
     background-size: cover;
 }
 
 .gal4{
-    background-image: url(./img/pexels-los-muertos-crew-8030143.jpg);
+    background-image: url(img/pexels-los-muertos-crew-8030143.jpg);
     height: 400px;
     background-position: center;
     background-size: cover;
 }
 
 .gal5{
-    background-image: url(/img/pexels-surene-palvie-2767689.jpg);
+    background-image: url(img/pexels-surene-palvie-2767689.jpg);
     background-position: center;
     background-size: cover;
 }
 
 .gal6{
-    background-image: url(/img/pexels-michael-burrows-7147840.jpg);
+    background-image: url(img/pexels-michael-burrows-7147840.jpg);
     background-position: center;
     background-size: cover;
 }
