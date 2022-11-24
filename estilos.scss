@@ -1,4 +1,16 @@
 
+@import "https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Raleway&family=Roboto+Condensed:ital,wght@1,300&display=swap";
+
+
+
+
+@mixin galerias {
+    background-size: cover;
+	background-position: center;
+}
+
+
+
 $color_1: rgb(118, 17, 17);
 $color_2: gray;
 $color_3: rgb(130, 63, 63);
@@ -6,42 +18,32 @@ $color_4: burlywood;
 $color_5: #fff;
 $color_6: rgb(128, 128, 128);
 $color_7: firebrick;
-$font-family_1: 'PT Serif', serif;
-$font-family_2: 'Raleway', sans-serif;
+$color_8: #deb887;
+$color_9: black;
+$font-family_1: "PT Serif", serif;
+$font-family_2: "Raleway", sans-serif;
 $background-color_1: burlywood;
 $background-color_2: grey;
 $background-color_3: gray;
-
-@mixin galerias {
-    background-size: cover;
-	background-position: center;
-}
-
-@import "https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Raleway&family=Roboto+Condensed:ital,wght@1,300&display=swap";
 
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: 0;
 }
-
-
 .navbar {
 	background-color: $background-color_1;
 	font-size: 20px;
 }
-
 .nav-link {
 	color: $color_1 !important;
 	text-decoration: underline black;
 }
-
 .navbar-brand {
 	color: $color_2 !important;
 	text-shadow: 0 0 2px beige;
 	font-size: 25px;
 }
-
 .jumbotron {
 	background-image: url(img/pexels-los-muertos-crew-8030143.jpg);
 	background-size: cover;
@@ -49,7 +51,6 @@ $background-color_3: gray;
 	background-position: center;
 	margin: 0;
 }
-
 h1 {
 	font-family: $font-family_1;
 	color: $color_3;
@@ -57,54 +58,18 @@ h1 {
 	text-align: left;
 	font-size: 50px;
 }
-
 h2 {
 	background-color: $background-color_2;
 	color: $color_4;
 	text-align: center;
 	padding: 20px;
 }
-
-h3 {
-	background-color: $background-color_3;
-	color: $color_4;
-	text-align: center;
-	padding: 20px;
-	font-size: 35px;
-	font-family: $font-family_1;
-	text-transform: uppercase;
-	margin: 0;
-}
-
 .container-fluid {
 	margin-bottom: 60px;
 }
-
 .container-fluid2 {
 	margin-top: 90px;
 }
-
-.nright {
-	height: 600px;
-	background-image: url(img/pexels-wallace-chuck-2973392.jpg);
-	background-size: cover;
-	background-position: center;
-	margin-top: 30px;
-	margin-bottom: 20px;
-}
-
-.nleft {
-	margin-top: 30px;
-	h4 {
-		font-family: $font-family_2;
-		text-align: center;
-	}
-	p {
-		text-align: justify;
-		padding: 10px;
-	}
-}
-
 .contact-form {
 	background: gray;
 	margin-top: 10%;
@@ -136,7 +101,6 @@ h3 {
 		cursor: pointer;
 	}
 }
-
 .contact-image {
 	text-align: center;
 	img {
@@ -146,7 +110,6 @@ h3 {
 		transform: rotate(29deg);
 	}
 }
-
 .btnContactSubmit {
 	width: 50%;
 	border-radius: 1rem;
@@ -156,7 +119,6 @@ h3 {
 	border: none;
 	cursor: pointer;
 }
-
 h5 {
 	background-color: $background-color_3;
 	color: $color_4;
@@ -167,13 +129,11 @@ h5 {
 	text-transform: uppercase;
 	margin: 0;
 }
-
 .ph5 {
 	text-align: center;
 	font-size: 20px;
 	margin-top: 0;
 }
-
 .gal {
 	height: 300px;
 	border: 2px solid black;
@@ -184,38 +144,36 @@ h5 {
 		transition: all 0.5s;
 	}
 }
-
 .gal1 {
 	background-image: url(img/pexels-wallace-chuck-2973392.jpg);
-	@include galerias;
+	background-size: cover;
+	background-position: center;
 }
-
 .gal2 {
 	background-image: url(img/pexels-cottonbro-3738075.jpg);
-	@include galerias;
+	background-size: cover;
+	background-position: center;
 }
-
 .gal3 {
 	background-image: url(img/pexels-dilara-baltacı-10443442.jpg);
-	@include galerias;
+	background-size: cover;
+	background-position: center;
 }
-
 .gal4 {
 	background-image: url(img/pexels-los-muertos-crew-8030143.jpg);
-	@include galerias;
+	background-size: cover;
+	background-position: center;
 }
-
 .gal5 {
 	background-image: url(img/pexels-surene-palvie-2767689.jpg);
-	@include galerias;
+	background-size: cover;
+	background-position: center;
 }
-
 .gal6 {
 	background-image: url(img/pexels-michael-burrows-7147840.jpg);
-	@include galerias;
+	background-size: cover;
+	background-position: center;
 }
-
-
 footer {
 	height: auto;
 	width: 100%;
@@ -235,5 +193,98 @@ footer {
 	i {
 		letter-spacing: 10px;
 		font-size: 40px;
+	}
+}
+.lista1 {
+	h1 {
+		margin-top: 35px;
+		font-family: $font-family_2;
+		text-align: left;
+		padding: 45px;
+	}
+	p {
+		text-align: justify;
+		padding: 55px;
+		font-family: $font-family_2;
+		font-size: 30px;
+		color: $color_4;
+		text-transform: uppercase;
+		text-shadow: 1px 1px 2px black;
+	}
+	ol {
+		padding: 80px;
+		font-family: $font-family_2;
+		font-size: 30px;
+		margin-top: 45px;
+	}
+}
+.about {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.content {
+		img {
+			height: auto;
+			width: 600px;
+			max-width: 100%;
+		}
+	}
+}
+.text {
+	width: 550px;
+	max-width: 100%;
+	padding: 0 10px;
+	h5 {
+		margin-bottom: 20px;
+		text-transform: capitalize;
+		color: $color_8;
+		font-size: 60px;
+	}
+	h6 {
+		color: $color_9;
+		font-size: 26px;
+		margin-bottom: 25px;
+		text-transform: capitalize;
+		letter-spacing: 2px;
+	}
+	p {
+		color: $color_9;
+		font-size: 18px;
+		line-height: 28px;
+		letter-spacing: 1px;
+		margin-bottom: 45px;
+	}
+}
+.content {
+	width: 1280px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+@media screen and (max-width: 1180px) {
+	.about {
+		width: 100%;
+		height: auto;
+		padding: 70px 0px;
+	}
+}
+@media screen and (max-width: 650px) {
+	.about {
+		.content {
+			img {
+				margin-bottom: 35px;
+			}
+		}
+	}
+	.text {
+		h5 {
+			font-size: 60px;
+			margin-bottom: 25px;
+		}
 	}
 }
